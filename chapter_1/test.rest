@@ -1,0 +1,19 @@
+### Get Data from home page (/)
+GET http://localhost:3000
+
+### Get data about myself (/about)
+GET http://localhost:3000/about
+
+### Get data about api data(/api/data)
+GET http://localhost:3000/api/data
+
+### Data endpoint for adding user
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+  "name": "Ny MouYouei"
+}
+
+### Delete the end of data
+DELETE http://localhost:3000/api/data
